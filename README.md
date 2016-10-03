@@ -17,7 +17,7 @@ Send a query to MySQL
 + Request (application/json)
     + Body
             {
-              "query": "select * from my_table"
+              "query": "select * from demodb.customers"
             }
 
 + Response 200 (application/json)
